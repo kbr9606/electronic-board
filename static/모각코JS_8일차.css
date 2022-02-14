@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Cafe24Ssurround';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body, html {
+    width: 100%; height: 100%;
+    margin: 0;
+}
+
+body {
+    background: #F0E9E9;
+    font-family: 'Cafe24Ssurround';
+}
+
+.board {
+    width: 660px; height: 280px;
+    border-radius: 20px;
+    background: #C19191;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.textBox {
+    width: 600px; height: 150px;
+    border-radius: 20px;
+    background: #f3f0f0;
+    position: relative;
+
+    margin: 10px auto;
+}
+
+.text {
+    text-align: center;
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 52px;
+    margin: 0;
+}
+
+.btns {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+
+    position: absolute;
+    top: 82%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    margin: 0 auto;
+}
+
+.btn {
+    width: 160px; height: 45px;
+    border: none;
+    border-radius: 20px;
+    background: #AA7070;
+    color: white;
+
+    font-size: 22px;
+    font-family: 'Cafe24Ssurround';
+
+    cursor: pointer;
+}
+
+.btn:active {
+    box-shadow: inset -4px 4px 20px 7px #966363;
+}
